@@ -1,0 +1,11 @@
+.secondbodyContainer{
+    background-image: url('../../../../images/wat-arun-pagoda-on-chao-phraya-riverbank-at-night-2023-11-27-05-02-28-utc.jpg');
+    background-position: 50% 70%;
+    height: 600px;
+    margin-top: -2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
