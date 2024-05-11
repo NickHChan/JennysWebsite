@@ -1,0 +1,20 @@
+.navContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    position:fixed;
+    background-color: white;
+    width: 100%;
+}
+.Container{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: rgb(184, 129, 42);
+}
+
+.optionsContainer{
+    display: flex;
+    gap: 50px;
+}
