@@ -14,10 +14,17 @@
     width: 20%;
     color: rgb(81, 81, 81);
 }
-
 .thirdbodyText::after{
+    content: "";
+    position: absolute;
+    left: 58rem;
+    top: 104rem;
+    height: 350px;
+    width: 550px;
+    background-color: rgb(230, 174, 32);
+    z-index: 1;
+}
+.thirdbodyImage{
     position: relative;
-    background-color: black;
-    width: 1500px;
-    height: 1000px;
+    z-index: 1;
 }
