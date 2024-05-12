@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import styles from './global.module.css'
+import PageSelector from "./components/PageSelector";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({
     <>
     <html lang="en">
       <body className={styles.body}>
+        <PageSelector/>
         {children}
         </body>
     </html>
