@@ -1,0 +1,18 @@
+.fifthbodyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.title{
+    font-family: monospace;
+    font-size: 2rem;
+    color: rgb(227, 177, 53);
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
