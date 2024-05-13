@@ -1,8 +1,12 @@
 import React from 'react'
+import NavbarTwo from '../components/SecondTemplate/NavbarTwo'
 
 export default function TemplateTwo() {
   return (
-    <div>page</div>
+    <div>
+    <NavbarTwo/>  
+      page
+    </div>
   )
 }
 
