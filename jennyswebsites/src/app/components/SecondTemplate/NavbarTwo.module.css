@@ -1,7 +1,5 @@
 .navbarTwoContainer{
     background-color: rgb(46, 46, 46);
-    position: absolute;
-    top: 0;
     width: 100%;
     display: flex;
     justify-content: center;

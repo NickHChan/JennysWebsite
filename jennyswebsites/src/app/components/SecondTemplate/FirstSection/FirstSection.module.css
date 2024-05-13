@@ -1,0 +1,17 @@
+.firstSectionContainer{
+    background-image: url('../../../../../images/darker-seafood-on-dinner-table-2023-11-27-04-56-23-utc.jpg');
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.textContainer{
+    width: 65%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+}
