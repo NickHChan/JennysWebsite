@@ -2,4 +2,20 @@
     background-color: rgb(2, 28, 57);
     height: 30rem;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.leftPillar{
+    height: 100%;
+    width: 60px;
+    margin-left: -1px;
+}
+.rightPillar{
+    height: 100%;
+    width: 60px;
+    margin-right: -1px;
+}
+.middlePillar{
+    width: 100%;
+    border: 1px solid wheat;
 }
