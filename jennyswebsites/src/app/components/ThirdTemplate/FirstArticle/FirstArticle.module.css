@@ -21,7 +21,28 @@
     align-items: center;
     gap: 1rem;
     font-size: 0.5rem;
-    color:wheat
+    color:wheat;
+}
+
+.reservationText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+}
+.reservationText:hover{
+    color: black;
+    background-color: wheat;
+    transition: ease-in-out 0.5s;
+}
+.reservationText:not(:hover){
+    transition: ease-in-out 0.5s;
+}
+.menuSvg:hover{
+    cursor: pointer;
 }
 
 .firstArticleSecondContainer{
@@ -53,4 +74,10 @@
     background-color: transparent;
     border-color: wheat;
     color: wheat;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    color: black;
+    background-color: wheat;
 }
