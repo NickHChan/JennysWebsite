@@ -1,0 +1,13 @@
+.firstHalfContainer{
+    background-image: url('../../../images/pad-thai-in-a-white-plate-with-lemon-eggs-and-sea-2023-11-27-05-06-17-utc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 35%;
+    height: 45rem;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.firstHalfBody{
+    height: 100rem;
+}

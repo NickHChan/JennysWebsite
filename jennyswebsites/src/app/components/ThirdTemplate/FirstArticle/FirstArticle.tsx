@@ -3,6 +3,6 @@ import styles from './FirstArticle.module.css'
 
 export default function FirstArticle() {
   return (
-    <div>FirstArticle</div>
+    <div className={styles.firstArticleContainor}></div>
   )
 }

@@ -1,0 +1,6 @@
+.secondArticleContainer{
+    background-color: aqua;
+    height: 500rem;
+    position: relative;
+    z-index: 5;
+}
