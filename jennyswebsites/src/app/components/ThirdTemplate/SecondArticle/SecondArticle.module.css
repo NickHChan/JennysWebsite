@@ -33,8 +33,14 @@
     cursor: pointer;
     color: black;
     background-color: wheat;
+    transition: ease-in-out 0.2s;
 }
-.leftPiller{
+
+.button:not(:hover){
+    transition: ease-in-out 0.2s;
+}
+
+.leftPillar{
     height: 100%;
     width: 60px;
     margin-left: -5px;

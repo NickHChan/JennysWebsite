@@ -1,0 +1,74 @@
+.thirdArticleContainer{
+    height: 40rem;
+    background-color: rgb(2, 28, 57);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 6;
+}
+.leftPillar{
+    height: 100%;
+    width: 60px;
+    margin-left: -1px;
+    border: 1px solid wheat
+}
+.rightPillar{
+    height: 100%;
+    width: 60px;
+    margin-right: -1px;
+    border: 1px solid wheat 
+}
+.centerPillar{
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid wheat;
+    border-bottom: 1px solid wheat;
+    display: flex;
+    justify-content: center;
+}
+
+.centerPillarImageContainer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid wheat;
+}
+
+.centerPillarTextContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    text-align: left;
+    color: wheat;
+}
+.button{
+    margin:  1rem 0 1.5rem 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 2rem;
+    background-color: transparent;
+    border-color: wheat;
+    color: wheat;
+}
+.button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: wheat;
+    transition: ease-in-out 0.2s;
+}
+
+.button:not(:hover){
+    transition: ease-in-out 0.2s;
+}
+
+.header{
+    font-size: 1.5rem;
+}
+
+.headerText{
+    font-size: 1rem;
+}

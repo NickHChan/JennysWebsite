@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './SecondArticle.module.css'
 import Image from 'next/image'
-import foodImg from '../../../../../../images/woman-bringing-dish-to-table-2023-11-27-04-51-42-utc.jpg'
+import foodImg from '../../../../../images/woman-bringing-dish-to-table-2023-11-27-04-51-42-utc.jpg'
 
 export default function SecondArticle() {
   return (
     <div className={styles.secondArticleContainer}>
-      <div className={styles.leftPiller}></div>
+      <div className={styles.leftPillar}></div>
       <div className={styles.secondArticleTextContainer}>
         <h3 className={styles.secondArticleText}>
           Inspired by traditional flavors,

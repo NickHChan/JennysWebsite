@@ -3,15 +3,16 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import styles from './page.module.css'
 import FirstArticle from '../components/ThirdTemplate/FirstArticle/FirstArticle'
-import SecondArticle from '../components/ThirdTemplate/FirstArticle/SecondArticle/SecondArticle'
+import SecondArticle from '../components/ThirdTemplate/SecondArticle/SecondArticle'
+import ThirdArticle from '../components/ThirdTemplate/ThirdArticle/ThirdArticle'
 
 export default function TemplateThree() {
-  const [scrolledAmount, setScrolledAmount] = useState<number>(35);
+  const [scrolledAmount, setScrolledAmount] = useState<number>(17);
 
   useEffect(()=>{
     const handleOnScroll = () => {
       let yPosition = Math.floor((window.scrollY)/50)
-      setScrolledAmount(35 - yPosition)
+      setScrolledAmount(17 - yPosition)
     }
     window.addEventListener('scroll', handleOnScroll, {passive: true})
     return(()=>{
@@ -33,6 +34,7 @@ export default function TemplateThree() {
       <div style={{height: `${scrolledAmount}rem`}}></div>
       <FirstArticle/>  
       <SecondArticle/>
+      <ThirdArticle/>
     </>
   )
 }
