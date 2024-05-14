@@ -7,7 +7,7 @@ export default function PageSelector() {
     <div className={styles.selectorContainer}>
         <div> <Link href="/">1</Link></div>
         <div><Link href="/templatetwo">2</Link></div>
-        <div>3</div>
+        <div><Link href="/templatethree">3</Link></div>
     </div>
   )
 }
