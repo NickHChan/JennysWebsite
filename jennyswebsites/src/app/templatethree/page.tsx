@@ -6,16 +6,17 @@ import FirstArticle from '../components/ThirdTemplate/FirstArticle/FirstArticle'
 import SecondArticle from '../components/ThirdTemplate/SecondArticle/SecondArticle'
 import ThirdArticle from '../components/ThirdTemplate/ThirdArticle/ThirdArticle'
 import FourthArticle from '../components/ThirdTemplate/FourthArticle/FourthArticle'
+import FifthArticle from '../components/ThirdTemplate/FifthArticle/FifthArticle'
 
 export default function TemplateThree() {
   const [firstScrolledAmount, setFirstScrolledAmount] = useState<number>(11);
-  const [secondScrolledAmount, setSecondScrolledAmount] = useState<number>(60);
+  const [secondScrolledAmount, setSecondScrolledAmount] = useState<number>(70);
 
   useEffect(()=>{
     const handleOnScroll = () => {
       let yPosition = Math.floor((window.scrollY)/50)
       setFirstScrolledAmount(11 - yPosition)
-      setSecondScrolledAmount(60 - yPosition)
+      setSecondScrolledAmount(70 - yPosition)
     }
     window.addEventListener('scroll', handleOnScroll, {passive: true})
     return(()=>{
@@ -40,6 +41,7 @@ export default function TemplateThree() {
       <div className={styles.secondImage}></div>
       <div style={{height: `${secondScrolledAmount}rem`}}></div>
       <FourthArticle/>
+      <FifthArticle/>
     </>
   )
 }
