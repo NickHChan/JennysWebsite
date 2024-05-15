@@ -7,6 +7,7 @@ import SecondArticle from '../components/ThirdTemplate/SecondArticle/SecondArtic
 import ThirdArticle from '../components/ThirdTemplate/ThirdArticle/ThirdArticle'
 import FourthArticle from '../components/ThirdTemplate/FourthArticle/FourthArticle'
 import FifthArticle from '../components/ThirdTemplate/FifthArticle/FifthArticle'
+import SixthArticle from '../components/ThirdTemplate/SixthArticle/SixthArticle'
 
 export default function TemplateThree() {
   const [firstScrolledAmount, setFirstScrolledAmount] = useState<number>(11);
@@ -42,6 +43,7 @@ export default function TemplateThree() {
       <div style={{height: `${secondScrolledAmount}rem`}}></div>
       <FourthArticle/>
       <FifthArticle/>
+      <SixthArticle/>
     </>
   )
 }
