@@ -10,13 +10,13 @@ import FifthArticle from '../components/ThirdTemplate/FifthArticle/FifthArticle'
 
 export default function TemplateThree() {
   const [firstScrolledAmount, setFirstScrolledAmount] = useState<number>(11);
-  const [secondScrolledAmount, setSecondScrolledAmount] = useState<number>(70);
+  const [secondScrolledAmount, setSecondScrolledAmount] = useState<number>(60);
 
   useEffect(()=>{
     const handleOnScroll = () => {
       let yPosition = Math.floor((window.scrollY)/50)
       setFirstScrolledAmount(11 - yPosition)
-      setSecondScrolledAmount(70 - yPosition)
+      setSecondScrolledAmount(60 - yPosition)
     }
     window.addEventListener('scroll', handleOnScroll, {passive: true})
     return(()=>{
