@@ -8,14 +8,14 @@ import ThirdArticle from '../components/ThirdTemplate/ThirdArticle/ThirdArticle'
 import FourthArticle from '../components/ThirdTemplate/FourthArticle/FourthArticle'
 
 export default function TemplateThree() {
-  const [firstScrolledAmount, setFirstScrolledAmount] = useState<number>(17);
-  const [secondScrolledAmount, setSecondScrolledAmount] = useState<number>(50);
+  const [firstScrolledAmount, setFirstScrolledAmount] = useState<number>(14);
+  const [secondScrolledAmount, setSecondScrolledAmount] = useState<number>(70);
 
   useEffect(()=>{
     const handleOnScroll = () => {
       let yPosition = Math.floor((window.scrollY)/50)
-      setFirstScrolledAmount(17 - yPosition)
-      setSecondScrolledAmount(50 - yPosition)
+      setFirstScrolledAmount(14 - yPosition)
+      setSecondScrolledAmount(70 - yPosition)
     }
     window.addEventListener('scroll', handleOnScroll, {passive: true})
     return(()=>{
