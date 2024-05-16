@@ -4,12 +4,12 @@ import Image from 'next/image'
 import thaiStickImg from '../../../../../images/thai-sticks.jpg'
 import redCurryImg from '../../../../../images/red-curry.jpg'
 import riceNoodleImg from '../../../../../images//rice-noodles.jpg'
+import { reviews } from './reviews'
 
 export default function ThirdSection() {
   return (
     <div className={styles.thirdSectionContainer}>
         <div className={styles.reviewSection1}>
-            <p>review</p>
             <Image
             src={redCurryImg}
             alt='Picture of red curry'
