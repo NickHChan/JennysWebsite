@@ -9,6 +9,7 @@ export default function FirstSection() {
                 <br/>
                 Authentic Thai Kitchen
             </h2>
+            <button className={styles.button}>See Menu &gt;</button>
         </div>
     </div>
   )
