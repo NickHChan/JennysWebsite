@@ -52,7 +52,7 @@ export default function ThirdSection() {
             <Image
             src={redCurryImg}
             alt='Picture of red curry'
-            width={1000}
+            width={1200}
             />
         </div>
         <div className={styles.reviewSection2}>

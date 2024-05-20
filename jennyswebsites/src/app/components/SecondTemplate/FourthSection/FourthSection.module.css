@@ -11,12 +11,44 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    color: white;
+    gap:  2rem;
 }
 
 .location1{
-    height: 80%;
     padding: 4rem;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../../../images/dark-red-curry.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+.location2{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../../../images/dark-rice-noodles.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.locationName{
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+.button{
+    background-color: rgb(237, 174, 57);
+    border-color: transparent;
+    border-radius: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1.5rem;
 }
