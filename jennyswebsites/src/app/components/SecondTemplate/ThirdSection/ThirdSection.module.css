@@ -6,4 +6,30 @@
 .reviewSection1{
     display: flex;
     justify-content: center;
+    height: 500px;
+}
+
+.reviewContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+.reviewSection2{
+    display: flex;
+}
+
+.reviewContainer2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 72, 234);
+
 }
