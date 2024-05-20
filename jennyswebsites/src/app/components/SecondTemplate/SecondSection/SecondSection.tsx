@@ -10,6 +10,7 @@ export default function SecondSection() {
         src={foodImg}
         alt='Picture of the menu'
         height={1000}
+        priority
         className={styles.foodImage}
         />
     </div>

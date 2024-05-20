@@ -16,6 +16,7 @@ export default function NavbarTwo() {
           alt='Resturants Logo'
           height={120}
           width={120}
+          priority
           />
           <p className={styles.logoText}>Authentic Thai Kitchen</p>
         </div>

@@ -53,15 +53,13 @@ export default function ThirdSection() {
             src={redCurryImg}
             alt='Picture of red curry'
             width={1000}
-            height={500}
             />
         </div>
         <div className={styles.reviewSection2}>
             <Image
               src={thaiStickImg}
-              alt='Picture of red curry'
+              alt='Picture of Thai Sticks'
               width={700}
-              height={500}
             />
             <div className={styles.reviewContainer2}>
               <Stars/>
@@ -70,9 +68,8 @@ export default function ThirdSection() {
             </div>
             <Image
               src={riceNoodleImg}
-              alt='Picture of red curry'
+              alt='Picture of rice noodles'
               width={700}
-              height={500}
             />
         </div>
     </div>

@@ -7,10 +7,12 @@
     display: flex;
     justify-content: center;
     height: 500px;
+    width: auto;
 }
 
 .reviewContainer{
     width: 50%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,6 +27,7 @@
 
 .reviewContainer2{
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
