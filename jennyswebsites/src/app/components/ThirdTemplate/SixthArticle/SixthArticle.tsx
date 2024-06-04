@@ -4,6 +4,7 @@ import Image from 'next/image'
 import instaSvg from '../../../../../images/instaSVG.svg'
 import fbSvg from '../../../../../images/fbSVG.svg'
 import yelpSvg from '../../../../../images/yelpSVG.svg'
+import tiktokSvg from '../../../../../images/tiktokSVG.svg'
 
 export default function SixthArticle() {
   return (
@@ -11,14 +12,6 @@ export default function SixthArticle() {
         <div className={styles.leftPillar}></div>
         <div className={styles.middlePillar}>
             <div className={styles.addressContainer}>
-                <h5>
-                    Some Location
-                    <br/>
-                    Some Phone Number
-                    <br/>
-                    Some Email
-                    <br/>
-                </h5>
                 <div className={styles.socialsContainer}>
                     <Image
                     src={instaSvg}
@@ -33,6 +26,11 @@ export default function SixthArticle() {
                     <Image
                     src={fbSvg}
                     alt='SVG of the Facebook logo'
+                    height={50}
+                    />
+                    <Image
+                    src={tiktokSvg}
+                    alt='SVG of the Tiktok logo'
                     height={50}
                     />
                 </div>

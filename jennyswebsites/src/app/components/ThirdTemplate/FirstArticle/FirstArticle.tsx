@@ -15,7 +15,6 @@ export default function FirstArticle() {
           height={200}
           />
           <section className={styles.reservationContainer}>
-            <h2 className={styles.reservationText}>Reservation</h2>
             <Image
             src={menuSvg}
             alt='Menu hamburger icon'
