@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useContext } from 'react'
 import { useEffect, useState } from 'react'
 import styles from './page.module.css'
 import TemplateOneNav from './components/FirstTemplate/Navbar/Navbar'
@@ -10,10 +10,12 @@ import FourthArticle from './components/ThirdTemplate/FourthArticle/FourthArticl
 import FifthArticle from './components/ThirdTemplate/FifthArticle/FifthArticle'
 import SixthArticle from './components/ThirdTemplate/SixthArticle/SixthArticle'
 import ThirdTemplateFooter from './components/ThirdTemplate/ThirdTemplateFooter/ThirdTemplateFooter'
+import { ScrollContext } from './helper/scrollToContext'
 
 export default function TemplateThree() {
   const [firstScrolledAmount, setFirstScrolledAmount] = useState<number>(11);
   const [secondScrolledAmount, setSecondScrolledAmount] = useState<number>(60);
+  const {contactRef, topRef} = useContext(ScrollContext);
 
   useEffect(()=>{
     const handleOnScroll = () => {
@@ -37,7 +39,7 @@ export default function TemplateThree() {
   return (
     <>
       <TemplateOneNav/>
-      <div className={styles.firstImage}></div>
+      <div ref={topRef} className={styles.firstImage}></div>
       <div style={{height: `${firstScrolledAmount}rem`}}></div>
       <FirstArticle/>  
       <SecondArticle/>
@@ -46,6 +48,7 @@ export default function TemplateThree() {
       <div style={{height: `${secondScrolledAmount}rem`}}></div>
       <FourthArticle/>
       <SixthArticle/>
+      <section ref={contactRef}></section>
       <ThirdTemplateFooter/>
     </>
   )
