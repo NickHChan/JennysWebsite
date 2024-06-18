@@ -23,7 +23,7 @@ function Navbar() {
           onClick={scrolltoTop}
           />
           <div className={styles.optionsContainer}>
-              <div className={styles.options}>Home</div>
+              <div className={styles.options} onClick={scrolltoTop}>Home</div>
               <div className={styles.options}>About</div>
               <div className={styles.options}>Menu</div>
               <div className={styles.options}>Gallery</div>
