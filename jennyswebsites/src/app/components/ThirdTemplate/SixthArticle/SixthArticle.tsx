@@ -37,9 +37,9 @@ export default function SixthArticle() {
             </div>
             <div className={styles.hoursContainer}>
                 <h5>
-                    Monday - Thursday: 9:00AM - 9:00PM
+                    Hours of Operation
                     <br/>
-                    Friday - Sunday: 12:00PM - 10:00PM
+                    11:00AM - 9:00PM; Monday - Sunday
                 </h5>
             </div>
         </div>
