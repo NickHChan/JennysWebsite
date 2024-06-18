@@ -17,6 +17,7 @@ function Navbar() {
               <div>Home</div>
               <div>About</div>
               <div>Menu</div>
+              <div>Gallery</div>
               <div>Contact</div>
           </div>
       </div>

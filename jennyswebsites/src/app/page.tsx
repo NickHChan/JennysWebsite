@@ -1,23 +1,52 @@
+'use client'
+import React from 'react'
+import { useEffect, useState } from 'react'
 import styles from './page.module.css'
-import Navbar from './components/FirstTemplate/Navbar/Navbar';
-import Firstbody from "./components/FirstTemplate/FirstBody/Firstbody";
-import Secondbody from "./components/FirstTemplate/SecondBody/Secondbody";
-import Thirdbody from './components/FirstTemplate/ThirdBody/Thirdbody';
-import Fourthbody from './components/FirstTemplate/FourthBody/Fourthbody';
-import Fifthbody from './components/FirstTemplate/FifthBody/Fifthbody';
-import Footer from './components/FirstTemplate/Footer/Footer';
+import TemplateOneNav from './components/FirstTemplate/Navbar/Navbar'
+import FirstArticle from './components/ThirdTemplate/FirstArticle/FirstArticle'
+import SecondArticle from './components/ThirdTemplate/SecondArticle/SecondArticle'
+import ThirdArticle from './components/ThirdTemplate/ThirdArticle/ThirdArticle'
+import FourthArticle from './components/ThirdTemplate/FourthArticle/FourthArticle'
+import FifthArticle from './components/ThirdTemplate/FifthArticle/FifthArticle'
+import SixthArticle from './components/ThirdTemplate/SixthArticle/SixthArticle'
+import ThirdTemplateFooter from './components/ThirdTemplate/ThirdTemplateFooter/ThirdTemplateFooter'
 
+export default function TemplateThree() {
+  const [firstScrolledAmount, setFirstScrolledAmount] = useState<number>(11);
+  const [secondScrolledAmount, setSecondScrolledAmount] = useState<number>(60);
 
-export default function Home() {
-  return(
-    <div className={styles.mainpageContainer}>
-    <Navbar/>
-    <Firstbody/>
-    <Secondbody/>
-    <Thirdbody/>
-    <Fourthbody/>
-    <Fifthbody/>
-    <Footer/>
-    </div>
+  useEffect(()=>{
+    const handleOnScroll = () => {
+      let yPosition = Math.floor((window.scrollY)/50)
+      setFirstScrolledAmount(11 - yPosition)
+      setSecondScrolledAmount(60 - yPosition)
+    }
+    window.addEventListener('scroll', handleOnScroll, {passive: true})
+    return(()=>{
+      window.removeEventListener('scroll', handleOnScroll)
+    })
+  },[setFirstScrolledAmount, firstScrolledAmount])
+
+  useEffect(()=>{
+    window.onbeforeunload = function(){
+      window.scrollTo(0, 0);
+    }
+
+  },[])
+
+  return (
+    <>
+      <TemplateOneNav/>
+      <div className={styles.firstImage}></div>
+      <div style={{height: `${firstScrolledAmount}rem`}}></div>
+      <FirstArticle/>  
+      <SecondArticle/>
+      <ThirdArticle/>
+      <div className={styles.secondImage}></div>
+      <div style={{height: `${secondScrolledAmount}rem`}}></div>
+      <FourthArticle/>
+      <SixthArticle/>
+      <ThirdTemplateFooter/>
+    </>
   )
 }
