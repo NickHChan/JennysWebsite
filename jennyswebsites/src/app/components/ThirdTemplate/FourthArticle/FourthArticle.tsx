@@ -14,38 +14,35 @@ export default function FourthArticle() {
     <div className={styles.fourthArticleContainer}>
         <div className={styles.leftPillar}></div>
         <div className={styles.middlePillar}>
-          <div className={styles.calender}>
-            <Image
-            src={gpsImg}
-            alt='Picture of yelp booking calender'
-            height={400}
-            />
-          </div>
-          <div className={styles.imgContainer}>
-          <section>
-        <article className={styles.info}>
-          <Image
-          src={locationImg}
-          alt='Location SVG'
-          />
-          <p>Some Address</p>
-        </article>
-        <article className={styles.info}>
-        <Image
-          src={phoneImg}
-          alt='Location SVG'
-          />
-          <p>Some Phone#</p>
-        </article>
-        <article className={styles.info}>
-        <Image
-          src={emailImg}
-          alt='Location SVG'
-          />
-          <p>Some Email</p>
-        </article>
-      </section>
-          </div>
+                <Image
+                src={gpsImg}
+                alt='Picture of yelp booking calender'
+                height={400}
+                />
+            <section>
+                <h4>Jenny Thai Restaurant</h4>
+                <article className={styles.info}>
+                  <Image
+                  src={locationImg}
+                  alt='Location SVG'
+                  />
+                  <p>3718-B Central Ave. Charlotte, NC 28205</p>
+                </article>
+                <article className={styles.info}>
+                <Image
+                  src={phoneImg}
+                  alt='Location SVG'
+                  />
+                  <p>Some Phone#</p>
+                </article>
+                <article className={styles.info}>
+                <Image
+                  src={emailImg}
+                  alt='Location SVG'
+                  />
+                  <p>Senmeenoodleclt@gmail.com</p>
+                </article>
+            </section>
         </div>
         <div className={styles.rightPillar}></div>
     </div>
