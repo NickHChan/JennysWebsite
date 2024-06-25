@@ -8,7 +8,7 @@ import { ScrollContext } from '@/app/helper/scrollToContext'
 
 function Navbar() {
   const [isHovered, setIsHovered] = useState<boolean>(false);
-  const {scrolltoContact, scrolltoTop} = useContext(ScrollContext)
+  const {scrolltoContact, scrolltoTop, scrolltoGallery} = useContext(ScrollContext)
 
   return (
     <div className={styles.navContainer}>
@@ -26,7 +26,7 @@ function Navbar() {
               <div className={styles.options} onClick={scrolltoTop}>Home</div>
               <div className={styles.options}>About</div>
               <div className={styles.options}>Menu</div>
-              <div className={styles.options}>Gallery</div>
+              <div className={styles.options} onClick={scrolltoGallery} >Gallery</div>
               <div className={styles.options} onClick={scrolltoContact}>Contact</div>
           </div>
       </div>

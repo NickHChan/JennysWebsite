@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import styles from './SecondArticle.module.css'
 import Image from 'next/image'
 import foodImg from '../../../../../images/SEN-MEE-Thai-Logo-Dark-Mode.png'
+import { ScrollContext } from '@/app/helper/scrollToContext'
 
 export default function SecondArticle() {
+  const {galleryRef} = useContext(ScrollContext);
   return (
     <div className={styles.secondArticleContainer}>
       <div className={styles.leftPillar}></div>
@@ -15,6 +17,7 @@ export default function SecondArticle() {
         alt='woman bringing thai food to the table'
         height={300}
         width={300}
+        ref={galleryRef}
         />
       </div>
       <div className={styles.rightPillar}></div>
