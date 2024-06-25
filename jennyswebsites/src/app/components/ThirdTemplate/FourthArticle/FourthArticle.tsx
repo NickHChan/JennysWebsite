@@ -18,9 +18,11 @@ export default function FourthArticle() {
                 src={gpsImg}
                 alt='Picture of yelp booking calender'
                 height={400}
+                width={500}
+                className={styles.gpsImg}
                 />
             <section>
-                <h4>Sen Mee Noodle House</h4>
+                <h4 className={styles.restName}>Sen Mee Noodle House</h4>
                 <article className={styles.info}>
                   <Image
                   src={locationImg}

@@ -47,3 +47,32 @@
     gap: 1rem;
     color: white;
 }
+
+@media (width < 1025px){
+    .info{
+        font-size: 1.3rem;
+    }
+    .middlePillar{
+        gap: 2rem;
+    }
+    .gpsImg{
+        width: 350px;
+        height: 400px;
+    }
+}
+@media (width < 769px){
+    .restName{
+        font-size: 1.5rem;
+    }
+    .info{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .middlePillar{
+        gap: 0.5rem;
+    }
+    .gpsImg{
+        width: 300px;
+        height: 400px;
+    }
+}
