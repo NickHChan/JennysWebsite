@@ -90,6 +90,9 @@
     .pictures{
         width: 400px;
     }
+    .secondArticleText{
+        font-size: 1.3rem;
+    }
 }
 @media (width < 769px){
 
@@ -97,11 +100,17 @@
         height: 600px;
         width: 300px;
     }
+    .secondArticleText{
+        font-size: 1.1rem;
+    }
 }
 @media (width < 413px){
 
     .pictures{
         height: 300px;
         width: 100px;
+    }
+    .secondArticleText{
+        font-size: 0.8rem;
     }
 }
