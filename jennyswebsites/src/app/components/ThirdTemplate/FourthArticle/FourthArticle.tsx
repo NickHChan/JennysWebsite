@@ -33,7 +33,7 @@ export default function FourthArticle() {
                   src={phoneImg}
                   alt='Location SVG'
                   />
-                  <p>Some Phone#</p>
+                  <p></p>
                 </article>
                 <article className={styles.info}>
                 <Image
