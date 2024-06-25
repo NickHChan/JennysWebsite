@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import styles from './SecondArticle.module.css'
 import Image from 'next/image'
-import foodImg from '../../../../../images/SEN-MEE-Thai-Logo-Dark-Mode.png'
+import logo from '../../../../../images/SEN-MEE-Thai-Logo-Dark-Mode.png'
 import { ScrollContext } from '@/app/helper/scrollToContext'
 
 export default function SecondArticle() {
@@ -13,8 +13,8 @@ export default function SecondArticle() {
         <button className={styles.button}>See Menu</button>
         <button className={styles.button}>Order Online</button>
         <Image
-        src={foodImg}
-        alt='woman bringing thai food to the table'
+        src={logo}
+        alt='Sen Mee Noodle Logo'
         height={300}
         width={300}
         ref={galleryRef}

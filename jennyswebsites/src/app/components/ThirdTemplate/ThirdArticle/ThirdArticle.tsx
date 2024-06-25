@@ -3,11 +3,11 @@ import React, {useState, useEffect, useRef, useContext} from 'react'
 import styles from './ThirdArticle.module.css'
 import Image from 'next/image'
 import foodPics from './foodPics'
-import { ScrollContext } from '@/app/helper/scrollToContext'
+
 
 export default function ThirdArticle() {
     const [index, setIndex] = useState<number>(0);
-    const {galleryRef} = useContext(ScrollContext);
+
 
     useEffect(()=>{
         const timer = setInterval(()=>{
@@ -26,7 +26,7 @@ export default function ThirdArticle() {
 
     })
   return (
-    <div ref={galleryRef} className={styles.thirdArticleContainer}>
+    <div className={styles.thirdArticleContainer}>
         <div className={styles.leftPillar}></div>
         <div className={styles.centerPillar}>
             <div className={styles.centerPillarImageContainer}>
@@ -35,6 +35,7 @@ export default function ThirdArticle() {
                 alt='top view of spicy thai noodles'
                 height={600}
                 width={800}
+                className={styles.pictures}
                 />
             </div>
 

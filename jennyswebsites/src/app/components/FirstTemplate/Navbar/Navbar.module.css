@@ -29,3 +29,9 @@
     cursor: pointer;
     color: rebeccapurple;
 }
+
+@media (width < 1025px){
+    .Container{
+        width: 80%;
+    }
+}

@@ -78,3 +78,30 @@
     width: 50%;
     font-size: 1.5rem;
 }
+
+@media (width < 1500px){
+
+    .pictures{
+        width: 550px;
+    }
+}
+@media (width < 1025px){
+
+    .pictures{
+        width: 400px;
+    }
+}
+@media (width < 769px){
+
+    .pictures{
+        height: 600px;
+        width: 300px;
+    }
+}
+@media (width < 413px){
+
+    .pictures{
+        height: 300px;
+        width: 100px;
+    }
+}
