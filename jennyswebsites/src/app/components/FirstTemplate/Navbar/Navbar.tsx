@@ -14,7 +14,7 @@ function Navbar() {
     <div className={styles.navContainer}>
       <div className={styles.Container}>
           <Image
-          src={ isHovered ? logoSvg : thaiLogoSvg}
+          src={ isHovered ? thaiLogoSvg : logoSvg}
           alt='Logo for resturant'
           height={120}
           width={120}
