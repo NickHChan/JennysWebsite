@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './ThirdArticle.module.css'
 import Image from 'next/image'
 import foodImg from '../../../../../images/top-view-of-delicious-spicy-thai-noodles-with-shri-2023-11-27-05-26-56-utc.jpg'
+import {foodPics} from './foodPics'
 
 export default function ThirdArticle() {
   return (
@@ -9,16 +10,12 @@ export default function ThirdArticle() {
         <div className={styles.leftPillar}></div>
         <div className={styles.centerPillar}>
             <div className={styles.centerPillarImageContainer}>
-                <Image
-                src={foodImg}
-                alt='top view of spicy thai noodles'
-                height={300}
-                />
             </div>
 
             <div className={styles.centerPillarTextContainer}>
                 <h3 className={styles.secondArticleText}>
                     Our mission is to provide delicious quality food at an affordable price, in a fast casual dining experience.
+                    <br/>
                     <br/>
                     Wowing your taste buds with salty, sweet, and spicy sour all in one bite. 
                     <br/>
