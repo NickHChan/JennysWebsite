@@ -31,9 +31,12 @@ export default function FirstArticle() {
             <br/>
           </h3>
           <p className={styles.subslogan}>Authentic Thai Cuisine</p>
-          <button className={styles.buttons}>See Menu</button>
-          <button className={styles.buttons}>Order Online</button>
         </article>
     </div>
   )
 }
+
+/*
+          <button className={styles.buttons}>See Menu</button>
+          <button className={styles.buttons}>Order Online</button>
+*/

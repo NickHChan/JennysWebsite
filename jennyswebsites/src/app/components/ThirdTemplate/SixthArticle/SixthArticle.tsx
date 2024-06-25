@@ -41,6 +41,9 @@ export default function SixthArticle() {
                     <br/>
                     11:00AM - 9:00PM; Monday - Sunday
                 </h5>
+                <h5 className={styles.additionalInfo}>
+                     Additional Parking In The Rear
+                </h5>
             </div>
         </div>
         <div className={styles.rightPillar}></div>

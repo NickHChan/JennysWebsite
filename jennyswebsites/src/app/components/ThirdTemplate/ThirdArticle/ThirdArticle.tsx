@@ -17,25 +17,13 @@ export default function ThirdArticle() {
             </div>
 
             <div className={styles.centerPillarTextContainer}>
-                <div>
-                    <p className={styles.header}>
-                        Your Perfect Destination
-                        <br/>
-                        for Any Occasion
-                    </p>
-                    <p className={styles.headerText}>
-                        Jenny&apos;s Thai Food: authentic thai cuisine
-                        <br/>
-                        is your go-to spot for delicious and authentic
-                        <br/>
-                        Thai cuisine experience. Our chefs use only the
-                        <br/>
-                        freshest ingredients to craft an unforgettable
-                        <br/>
-                        journey of tanalizing Thai flavors
-                    </p>
-                    <button className={styles.button}>Order Online</button>
-                </div>
+                <h3 className={styles.secondArticleText}>
+                    Our mission is to provide delicious quality food at an affordable price, in a fast casual dining experience.
+                    <br/>
+                    Wowing your taste buds with salty, sweet, and spicy sour all in one bite. 
+                    <br/>
+                    Utilizing our authentic flavors from Southeast Asia, we aim to provide seasonal ingredients, imported herbs, and spices throughout our rotating menu.
+                </h3>
             </div>
         </div>
         <div className={styles.rightPillar}></div>

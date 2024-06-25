@@ -44,8 +44,17 @@
 
 .hoursContainer{
     width: 50%;
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.hoursContainer h5{
+    margin: 0;
+    padding: 0;
+}
+.additionalInfo{
+    color: white;
 }

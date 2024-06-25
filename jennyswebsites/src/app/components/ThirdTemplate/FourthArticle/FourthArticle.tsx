@@ -20,7 +20,7 @@ export default function FourthArticle() {
                 height={400}
                 />
             <section>
-                <h4>Jenny Thai Restaurant</h4>
+                <h4>Sen Mee Noodle House</h4>
                 <article className={styles.info}>
                   <Image
                   src={locationImg}

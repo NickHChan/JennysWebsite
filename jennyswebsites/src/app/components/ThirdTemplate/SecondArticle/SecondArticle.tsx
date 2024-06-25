@@ -8,14 +8,8 @@ export default function SecondArticle() {
     <div className={styles.secondArticleContainer}>
       <div className={styles.leftPillar}></div>
       <div className={styles.secondArticleTextContainer}>
-        <h3 className={styles.secondArticleText}>
-        Our mission is to provide delicious quality food at an affordable price, in a fast casual dining experience.
-        <br/>
-        Wowing your taste buds with salty, sweet, and spicy sour all in one bite. 
-        <br/>
-        Utilizing our authentic flavors from Southeast Asia, we aim to provide seasonal ingredients, imported herbs, and spices throughout our rotating menu.
-        </h3>
         <button className={styles.button}>See Menu</button>
+        <button className={styles.button}>Order Online</button>
         <Image
         src={foodImg}
         alt='woman bringing thai food to the table'
