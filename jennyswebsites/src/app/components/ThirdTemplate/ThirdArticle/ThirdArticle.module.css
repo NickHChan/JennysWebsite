@@ -141,10 +141,24 @@
     }
 }
 @media (width < 413px){
+    
+    .thirdArticleContainer{
+        height: 40rem;
+    }
+    .centerPillarTextContainer{
+        width: 80%;
+    }
+
+    .leftPillar{
+        width: 77px;
+    }
+    .rightPillar{
+        width: 77px;
+    }
 
     .pictures{
-        height: 300px;
-        width: 100px;
+        height: 350px;
+        width: 250px;
     }
     .secondArticleText{
         font-size: 0.8rem;

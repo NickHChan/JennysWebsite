@@ -54,3 +54,10 @@
     margin-right: -5px;
     border: 1px solid wheat 
 }
+
+@media (width < 413px){
+    .logo{
+        height: 250px;
+        width: 250px;
+    }
+}

@@ -27,6 +27,7 @@ export default function FourthArticle() {
                   <Image
                   src={locationImg}
                   alt='Location SVG'
+                  height={45}
                   />
                   <p>3718-B Central Ave. Charlotte, NC 28205</p>
                 </article>
@@ -34,6 +35,7 @@ export default function FourthArticle() {
                 <Image
                   src={phoneImg}
                   alt='Location SVG'
+                  height={45}
                   />
                   <p></p>
                 </article>
@@ -41,6 +43,7 @@ export default function FourthArticle() {
                 <Image
                   src={emailImg}
                   alt='Location SVG'
+                  height={45}
                   />
                   <p>Senmeenoodleclt@gmail.com</p>
                 </article>

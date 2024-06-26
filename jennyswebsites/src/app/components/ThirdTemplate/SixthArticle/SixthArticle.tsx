@@ -17,21 +17,25 @@ export default function SixthArticle() {
                     src={instaSvg}
                     alt='SVG of the Instagram logo'
                     height={50}
+                    className={styles.socialIcons}
                     />
                     <Image
                     src={yelpSvg}
                     alt='SVG of the Yelp logo'
                     height={50}
+                    className={styles.socialIcons}
                     />
                     <Image
                     src={fbSvg}
                     alt='SVG of the Facebook logo'
                     height={50}
+                    className={styles.socialIcons}
                     />
                     <Image
                     src={tiktokSvg}
                     alt='SVG of the Tiktok logo'
                     height={50}
+                    className={styles.socialIcons}
                     />
                 </div>
             </div>

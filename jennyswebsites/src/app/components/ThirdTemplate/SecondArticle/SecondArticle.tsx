@@ -18,6 +18,7 @@ export default function SecondArticle() {
         height={300}
         width={300}
         ref={galleryRef}
+        className={styles.logo}
         />
       </div>
       <div className={styles.rightPillar}></div>

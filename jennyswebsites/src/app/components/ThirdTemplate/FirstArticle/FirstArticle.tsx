@@ -7,23 +7,6 @@ import menuSvg from '../../../../../images/menubar.svg'
 export default function FirstArticle() {
   return (
     <div className={styles.firstArticle}>
-      <div className={styles.firstArticleContainer}>
-        <article className={styles.logoContainer}>
-          <Image
-          src={logoSvg}
-          alt='Picture of Resturant Logo'
-          height={200}
-          />
-          <section className={styles.reservationContainer}>
-            <Image
-            src={menuSvg}
-            alt='Menu hamburger icon'
-            height={30}
-            className={styles.menuSvg}
-            />
-          </section>
-        </article>
-      </div>
         <article className={styles.firstArticleSecondContainer}>
           <h3 className={styles.slogan}>Plates of
             <br/>

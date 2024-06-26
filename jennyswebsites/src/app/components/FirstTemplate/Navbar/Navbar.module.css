@@ -41,3 +41,11 @@
         width: 95%;
     }
 }
+@media (width < 413px){
+    .optionsContainer{
+        gap: 10px;
+    }
+    .Container{
+        font-size: 13px;
+    }
+}

@@ -28,7 +28,7 @@
 }
 
 .firstArticleSecondContainer{
-    height: 50%;
+    height: 80%;
     color: wheat;
     display: flex;
     flex-direction: column;
@@ -49,21 +49,11 @@
     padding: 0;
 }
 
-.buttons{
-    width: 7rem;
-    height: 1.5rem;
-    border-radius: 2rem;
-    background-color: transparent;
-    border-color: wheat;
-    color: wheat;
-}
-
-.buttons:hover{
-    cursor: pointer;
-    color: black;
-    background-color: wheat;
-    transition: ease-in-out 0.2s;
-}
-.buttons:not(:hover){
-    transition: ease-in-out 0.2s;
+@media (width < 413px){
+    .firstArticleSecondContainer{
+        height: 90%;
+    }
+    .slogan{
+        font-size: 3.2rem;
+    }
 }

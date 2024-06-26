@@ -32,10 +32,11 @@ export default function ThirdArticle() {
             <div className={styles.centerPillarImageContainer}>
                 <Image
                 src={foodPics[index].picture}
-                alt='top view of spicy thai noodles'
+                alt='Top view of a bunch of food served at the resturant'
                 height={600}
                 width={800}
                 className={styles.pictures}
+                quality={90}
                 />
             </div>
 
