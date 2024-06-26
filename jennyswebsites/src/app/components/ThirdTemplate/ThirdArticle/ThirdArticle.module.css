@@ -81,11 +81,25 @@
 
 @media (width < 1500px){
 
+    .leftPillar{
+        width: 61px;
+    }
+    .rightPillar{
+        width: 61px;
+    }
+
     .pictures{
         width: 550px;
     }
 }
 @media (width < 1025px){
+
+    .leftPillar{
+        width: 63px;
+    }
+    .rightPillar{
+        width: 63px;
+    }
 
     .pictures{
         width: 400px;
@@ -96,11 +110,33 @@
 }
 @media (width < 769px){
 
+    .leftPillar{
+        width: 66px;
+    }
+    .rightPillar{
+        width: 66px;
+    }
+
+
+    .thirdArticleContainer{
+        height: 60rem;
+    }
+    .centerPillar{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .centerPillarImageContainer{
+        border: 0;
+    }
+
     .pictures{
         height: 600px;
-        width: 300px;
+        width: 600px;
     }
     .secondArticleText{
+        width: 100%;
         font-size: 1.1rem;
     }
 }

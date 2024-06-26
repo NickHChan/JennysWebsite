@@ -61,18 +61,25 @@
     }
 }
 @media (width < 769px){
-    .restName{
-        font-size: 1.5rem;
-    }
-    .info{
-        font-size: 0.8rem;
-        text-align: center;
-    }
+
     .middlePillar{
+        flex-direction: column;
         gap: 0.5rem;
     }
+
+    .restName{
+        position: relative;
+        left: 20%;
+        font-size: 1.5rem;
+
+    }
+    .info{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
     .gpsImg{
-        width: 300px;
-        height: 400px;
+        width: 450px;
+        height: 300px;
     }
 }

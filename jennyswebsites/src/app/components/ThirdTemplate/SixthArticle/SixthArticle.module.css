@@ -58,3 +58,19 @@
 .additionalInfo{
     color: white;
 }
+
+@media (width < 1025px){
+
+    .socialsContainer{
+        width: 100%;
+    }
+}
+
+@media (width < 769px){
+
+
+    .hoursContainer{
+        width: 80%;
+        font-size: 1.5rem;
+    }
+}
