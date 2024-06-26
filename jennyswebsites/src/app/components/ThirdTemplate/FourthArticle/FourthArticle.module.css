@@ -99,3 +99,26 @@
         left: 5%;
     }
 }
+
+@media (width < 361px){
+    .gpsImg{
+        width: 200px;
+    }
+    .restName{
+        font-size: 1rem;
+        left: 20%;
+    }
+    .info{
+        height: 30%;
+        font-size: 0.8rem;
+    }
+}
+
+@media (width < 321px){
+    .restName{
+        left: 15%;
+    }
+    .info{
+        font-size: 0.7rem;
+    }
+}

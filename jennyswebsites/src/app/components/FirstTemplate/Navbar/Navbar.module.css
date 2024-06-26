@@ -49,3 +49,12 @@
         font-size: 13px;
     }
 }
+
+@media (width < 361px){
+    .optionsContainer{
+        gap: 5px;
+    }
+    .Container{
+        font-size: 11px;
+    }
+}

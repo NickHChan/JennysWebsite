@@ -164,3 +164,20 @@
         font-size: 0.8rem;
     }
 }
+
+@media (width < 361px){
+    .pictures{
+        width: 200px;
+        height: 300px;
+    }
+}
+
+
+@media (width < 321px){
+    .leftPillar{
+        width: 42px;
+    }
+    .rightPillar{
+        width: 42px;
+    }
+}

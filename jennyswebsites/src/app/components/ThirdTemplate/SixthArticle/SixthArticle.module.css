@@ -86,3 +86,28 @@
         font-size: 1rem;
     }
 }
+
+@media (width < 361px){
+    .sixthArticleContainer{
+        height: 10rem;
+    }
+    .socialIcons{
+        height: 25px;
+    }
+    .socialsContainer{
+        width: 90%;
+    }
+    .hoursContainer{
+        font-size: 0.85rem;
+    }
+}
+
+
+@media (width < 321px){
+    .middlePillar{
+        width: 72.5%;
+    }
+    .hoursContainer{
+        font-size: 0.79rem;
+    }
+}
