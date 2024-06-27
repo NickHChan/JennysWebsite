@@ -86,6 +86,7 @@
 
 @media (width < 413px){
     .gpsImg{
+        height: 300px;
         width: 250px;
     }
     .restName{
@@ -101,7 +102,12 @@
 }
 
 @media (width < 361px){
+
+    .fourthArticleContainer{
+        height: 30rem;
+    }
     .gpsImg{
+        height: 200px;
         width: 200px;
     }
     .restName{

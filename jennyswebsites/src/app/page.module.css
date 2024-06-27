@@ -1,5 +1,6 @@
 .mainpageContainer{
     margin-top: -23rem;
+    overflow-x: hidden;
 }
 
 .firstImage{
