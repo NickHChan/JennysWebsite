@@ -41,7 +41,7 @@
         width: 95%;
     }
 }
-@media (width < 413px){
+@media (width < 500px){
     .optionsContainer{
         gap: 10px;
     }

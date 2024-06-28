@@ -49,7 +49,7 @@
     padding: 0;
 }
 
-@media (width < 413px){
+@media (width < 500px){
     .firstArticleSecondContainer{
         height: 90%;
     }

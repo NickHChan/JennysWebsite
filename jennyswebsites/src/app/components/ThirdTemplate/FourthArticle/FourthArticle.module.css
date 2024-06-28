@@ -84,7 +84,7 @@
     }
 }
 
-@media (width < 413px){
+@media (width < 500px){
     .gpsImg{
         height: 300px;
         width: 250px;
